@@ -1,0 +1,1 @@
+R:\Programowanie\ProjektNetPCv2\WebAppContacts\webappcontacts.client\obj\Debug\webappcontacts.client.esproj.CoreCompileInputs.cache
