@@ -4,18 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './contact/contact.component';
-import { ContactListComponent } from './contact-list/contact-list.component';
+import { ContactComponent } from './contact/view/contact-view/contact.component';
+import { ContactListComponent } from './contact/view/contact-list/contact-list.component';
+import { LoginFormComponent } from './component/login-form/login-form.component';
+import { RoutesRoutes } from './routes.routing';
 
 
 @NgModule({
   declarations: [	
-    AppComponent, ContactComponent, ContactListComponent,
+    AppComponent, ContactComponent, ContactListComponent, LoginFormComponent
   
    ],
   imports: [
     BrowserModule, HttpClientModule, 
-    AppRoutingModule
+    AppRoutingModule, RoutesRoutes
   ],
   providers: [],
   bootstrap: [AppComponent]

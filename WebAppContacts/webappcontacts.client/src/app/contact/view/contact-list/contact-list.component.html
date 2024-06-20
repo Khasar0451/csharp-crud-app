@@ -1,0 +1,17 @@
+<header>List of contacts</header>
+<h3>
+    <a href="add-contact">Add new contact</a>
+</h3>
+
+
+<table *ngIf="contacts"> <!-- wait for contacts to load -->
+    <tr *ngFor="let contact_item of contacts">
+        <td>
+            {{contact_item.Name}}
+        </td>
+        <td>
+
+        </td>
+        <!-- <app-contact [contact_input]="contact_item"></app-contact>   -->
+    </tr>
+</table>
