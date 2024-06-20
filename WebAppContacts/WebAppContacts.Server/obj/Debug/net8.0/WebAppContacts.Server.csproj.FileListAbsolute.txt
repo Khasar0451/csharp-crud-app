@@ -33,3 +33,4 @@ R:\Programowanie\ProjektNetPCv2\WebAppContacts\WebAppContacts.Server\obj\Debug\n
 R:\Programowanie\ProjektNetPCv2\WebAppContacts\WebAppContacts.Server\obj\Debug\net8.0\WebAppContacts.Server.pdb
 R:\Programowanie\ProjektNetPCv2\WebAppContacts\WebAppContacts.Server\obj\Debug\net8.0\WebAppContacts.Server.genruntimeconfig.cache
 R:\Programowanie\ProjektNetPCv2\WebAppContacts\WebAppContacts.Server\obj\Debug\net8.0\ref\WebAppContacts.Server.dll
+R:\Programowanie\ProjektNetPCv2\WebAppContacts\WebAppContacts.Server\obj\Debug\net8.0\WebAppContacts.Server.sourcelink.json

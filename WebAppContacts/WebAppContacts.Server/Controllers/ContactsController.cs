@@ -7,5 +7,16 @@ namespace WebAppContacts.Server.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[]{ "Jan", "kowal" , "ski"};
+            
+        }
+        [HttpGet("{id}")]
+        public string Get(int id)
+        {
+            return "Jan";
+        }
     }
 }
