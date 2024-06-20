@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WebAppContacts.Server.Data;
 
 namespace WebAppContacts.Server.Controllers
 {
@@ -7,11 +8,18 @@ namespace WebAppContacts.Server.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        [HttpGet]
-        public IEnumerable<string> Get()
+        public ContactsController(ContactContext ctx)
         {
-            return new string[]{ "Jan", "kowal" , "ski"};
-            
+            this.ctx = ctx;
+        }
+
+        public ContactContext ctx { get; }
+
+        [HttpGet]
+        public ActionResult<string[]> GetContacts()
+        {
+          //  return new string[]{ "Jan", "kowal" , "ski"};
+            return Ok(ctx.Contacts.ToArray());
         }
         [HttpGet("{id}")]
         public string Get(int id)
