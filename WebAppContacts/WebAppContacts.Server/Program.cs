@@ -1,5 +1,7 @@
 using WebAppContacts.Server.Data;
 using Microsoft.EntityFrameworkCore;
+using WebAppContacts.Server.Repositories;
+using WebAppContacts.Server;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +11,8 @@ builder.Services.AddDbContext<ContactContext>(options =>
 
 builder.Services.AddControllers();
 builder.Services.AddCors();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();    //it is recommended for Repository to have scoped lifetime
+builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
