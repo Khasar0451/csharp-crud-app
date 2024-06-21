@@ -9,7 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ContactContext>(options =>
                     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddControllers();
+
+builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddCors();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();    //it is recommended for Repository to have scoped lifetime
 builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);

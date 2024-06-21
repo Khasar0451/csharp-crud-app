@@ -5,6 +5,7 @@ using WebAppContacts.Server.Repositories;
 using WebAppContacts.Server.Entities;
 using AutoMapper;
 using WebAppContacts.Server.DTO;
+using Microsoft.AspNetCore.JsonPatch;
 namespace WebAppContacts.Server.Controllers
 {
     [Route("api/[controller]")]
@@ -23,9 +24,9 @@ namespace WebAppContacts.Server.Controllers
         [HttpGet]
         public ActionResult GetContacts()
         {
-            var contacts = unitOfWork.ContactRepository.GetContacts();
-            return Ok(mapper.Map<IEnumerable<GetContactDTO>>(contacts));
-           // return Ok(unitOfWork.ContactRepository.GetContacts());
+            IEnumerable<Contact> contacts = unitOfWork.ContactRepository.GetContacts();
+            return Ok(mapper.Map<IEnumerable<ContactDTO>>(contacts));
+        
         }
 
         [HttpGet("{id}")]
@@ -35,12 +36,23 @@ namespace WebAppContacts.Server.Controllers
         }
 
         [HttpPut("add")]
-        public ActionResult AddContact(Contact contact)
+        public ActionResult AddContact(ContactDTO contactDTO)
         {
+            Contact contact = mapper.Map<Contact>(contactDTO);
             unitOfWork.ContactRepository.AddContact(contact);
             unitOfWork.Save();
             return Ok();
         }
+
+        [HttpPatch("update/{id}")]
+        public ActionResult UpdateContact(int id, JsonPatchDocument<ContactDTO>contactDTO)
+        {
+            Contact contact = unitOfWork.ContactRepository.GetContactById(id);
+            mapper.Map(contactDTO, contact);
+            unitOfWork.Save();
+            return Ok();
+        }
+
 
         [HttpDelete("delete/{id}")]
         public ActionResult DeleteContact(int id)

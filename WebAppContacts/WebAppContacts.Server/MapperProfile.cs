@@ -8,7 +8,8 @@ namespace WebAppContacts.Server
     {
         public MapperProfile()
         {
-            CreateMap<Contact, GetContactDTO>();
+            CreateMap<Contact, ContactDTO>();
+            CreateMap<ContactDTO, Contact>();
         }
     }
 }
