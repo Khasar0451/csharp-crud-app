@@ -77,9 +77,9 @@
             }
           },
           "defaultConfiguration": "development",
-          //"options": {
-          //  "proxyConfig": "src/proxy.conf.json"
-          //}
+          "options": {
+           "proxyConfig": "src/proxy.conf.json" //custom proxy
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"

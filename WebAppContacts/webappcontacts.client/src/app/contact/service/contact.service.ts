@@ -14,8 +14,8 @@ export class ContactService {
   //   return this.http.get<Array<IContact>>('contacts/data.json')
   // }
   /*getContacts(): Observable<Array<IContact>>{*/
-  getContacts(): Observable<Array<string>>{
-    return this.http.get < Array<string>>('/api/contacts');
+  getContacts(): Observable<any>{
+    return this.http.get('/api/Contacts');
   }
   getContact(id:string): Observable<IContact>{
     return this.http.get<IContact>('contacts/data.json/'+id);

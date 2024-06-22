@@ -29,7 +29,7 @@ namespace WebAppContacts.Server.DTO
         [Required]
         [Phone]
         public string Number { get; set; }
-        //[Required]
-        //public DateOnly Birthdate { get; set; }
+        [Required]
+        public DateOnly Birthdate { get; set; }
     }
 }
