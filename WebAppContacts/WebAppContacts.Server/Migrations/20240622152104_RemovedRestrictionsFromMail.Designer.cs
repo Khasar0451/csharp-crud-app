@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebAppContacts.Server.Data;
 
@@ -11,9 +12,11 @@ using WebAppContacts.Server.Data;
 namespace WebAppContacts.Server.Migrations
 {
     [DbContext(typeof(ContactContext))]
-    partial class ContactContextModelSnapshot : ModelSnapshot
+    [Migration("20240622152104_RemovedRestrictionsFromMail")]
+    partial class RemovedRestrictionsFromMail
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -41,7 +44,7 @@ namespace WebAppContacts.Server.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -64,9 +67,6 @@ namespace WebAppContacts.Server.Migrations
                     b.HasIndex("ContactCategoryId");
 
                     b.HasIndex("ContactSubcategoryId");
-
-                    b.HasIndex("Email")
-                        .IsUnique();
 
                     b.ToTable("Contacts");
                 });

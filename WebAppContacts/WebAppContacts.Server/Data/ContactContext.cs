@@ -21,6 +21,9 @@ namespace WebAppContacts.Server.Data
                 new ContactSubcategory { Id = 1, Name = "Boss"},
                 new ContactSubcategory { Id = 2, Name = "Client" }
                 );
+            modelBuilder.Entity<Contact>()
+                .HasIndex(x => x.Email)
+                .IsUnique();
             base.OnModelCreating(modelBuilder);
         }
     }

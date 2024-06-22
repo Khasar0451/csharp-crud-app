@@ -6,6 +6,8 @@ using WebAppContacts.Server.Entities;
 using AutoMapper;
 using WebAppContacts.Server.DTO;
 using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 namespace WebAppContacts.Server.Controllers
 {
     [Route("api/[controller]")]
@@ -48,10 +50,19 @@ namespace WebAppContacts.Server.Controllers
         [HttpPut("add")]
         public ActionResult AddContact(ContactDTO contactDTO)
         {
-            Contact contact = mapper.Map<Contact>(contactDTO);
-            unitOfWork.ContactRepository.AddContact(contact);
-            unitOfWork.Save();
-            return Ok();
+            try
+            {
+                Contact contact = mapper.Map<Contact>(contactDTO);
+                unitOfWork.ContactRepository.AddContact(contact);
+                unitOfWork.Save();
+                return Ok();
+            }
+            catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2627 || sqlEx.Number == 2601))
+            {
+                return BadRequest("Email already in use");
+            }
+
+
         }
 
         [HttpPatch("update/{id}")]
