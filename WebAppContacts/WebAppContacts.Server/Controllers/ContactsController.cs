@@ -38,7 +38,26 @@ namespace WebAppContacts.Server.Controllers
         {
             IEnumerable<ContactCategory> cat = unitOfWork.ContactRepository.GetContactCategories();
             return Ok(cat);
-        
+        }        
+
+        [HttpGet("categories/{id}")]
+        public string GetContactCategory(int id)
+        {
+            string cat = unitOfWork.ContactRepository.GetContactCategory(id);
+            return (cat);
+        }        
+        [HttpGet("subcategories")]
+        public ActionResult GetContactSubcategories()
+        {
+            IEnumerable<ContactCategory> cat = unitOfWork.ContactRepository.GetContactCategories();
+            return Ok(cat);
+        }        
+
+        [HttpGet("subcategories/{id}")]
+        public string GetContactSubcategory(int id)
+        {
+            string cat = unitOfWork.ContactRepository.GetContactCategory(id);
+            return (cat);
         }
 
         [HttpGet("{id}")]
@@ -53,6 +72,7 @@ namespace WebAppContacts.Server.Controllers
             try
             {
                 Contact contact = mapper.Map<Contact>(contactDTO);
+                contact.Category = GetContactCategory(contact.ContactCategoryId);
                 unitOfWork.ContactRepository.AddContact(contact);
                 unitOfWork.Save();
                 return Ok();
@@ -68,12 +88,19 @@ namespace WebAppContacts.Server.Controllers
         [HttpPatch("update/{id}")]
         public ActionResult UpdateContact(int id, JsonPatchDocument<ContactUpdateDTO>contactPatchDocument)
         {
-            Contact contact = unitOfWork.ContactRepository.GetContactById(id);
-            ContactUpdateDTO contactToPatch = mapper.Map<ContactUpdateDTO>(contact);
-            contactPatchDocument.ApplyTo(contactToPatch, ModelState);
-            mapper.Map(contactToPatch, contact);
-            unitOfWork.Save();
-            return Ok();
+            try
+            {
+                Contact contact = unitOfWork.ContactRepository.GetContactById(id);
+                ContactUpdateDTO contactToPatch = mapper.Map<ContactUpdateDTO>(contact);
+                contactPatchDocument.ApplyTo(contactToPatch, ModelState);
+                mapper.Map(contactToPatch, contact);
+                unitOfWork.Save();
+                return Ok();
+            }
+            catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2627 || sqlEx.Number == 2601))
+            {
+                return BadRequest("Email already in use");
+            }
         }
 
 

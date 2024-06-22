@@ -1,5 +1,12 @@
 export interface IContact {
-    Id: number;
-    Name: string;   
-    Phone: string;
+    id: number;
+    name: string; 
+    surame: string;
+    email: string;
+    password: string;  
+    contactCategoryId: number;
+    contactCategory: string;
+    contactsubcategoryid: number;
+    contactsubcategory: string;
+    number: string;
 }

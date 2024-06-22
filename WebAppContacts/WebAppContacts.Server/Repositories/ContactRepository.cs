@@ -38,6 +38,19 @@ namespace WebAppContacts.Server.Repositories
             return ctx.Categories.ToList();
         }
 
+        public string GetContactCategory(int id)
+        {
+            return ctx.Categories.Find(id).ToString();
+        }
+        public IEnumerable<ContactSubcategory> GetContactSubcategories()
+        {
+            return ctx.Subcategories.ToList();
+        }
+
+        public string GetContactSubcategory(int id)
+        {
+            return ctx.Subcategories.Find(id).ToString();
+        }
 
 
         public void UpdateContact(Contact contact)
@@ -69,5 +82,6 @@ namespace WebAppContacts.Server.Repositories
             Dispose(disposing: true);
             GC.SuppressFinalize(this);
         }
+
     }
 }

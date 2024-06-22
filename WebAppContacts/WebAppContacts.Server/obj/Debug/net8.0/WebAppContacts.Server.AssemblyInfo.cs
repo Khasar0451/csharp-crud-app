@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebAppContacts.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f1e5573f491d48af2e331c7cc8c4685f3128cac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a9e220fffdcda4a53c99284f6ba8798ffcc99b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebAppContacts.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebAppContacts.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

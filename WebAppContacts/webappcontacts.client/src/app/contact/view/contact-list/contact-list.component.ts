@@ -14,12 +14,26 @@ export class ContactListComponent implements OnInit{
    contacts: Array<IContact> = [];
 
   constructor(private contactService:ContactService){}  //service injection
-  
+
+  getCat(i: number): string {
+    var cat! : string;
+    this.contactService.getContactCategory(i).
+      subscribe(category => {
+        console.log(category)
+      });
+    return cat;
+  }
+
   ngOnInit(): void {
     this.contactService.getContacts().subscribe(
       contacts => {
-      //  this.contacts = contacts;
-        console.log(contacts);
+        
+        this.contacts = contacts;
+        var i = 0;
+        for (let contact in contacts) {
+             i += 1
+            contacts[i].contactCategory = this.getCat(contacts[i].contactCategoryId);
+        }
       }
     )
   }

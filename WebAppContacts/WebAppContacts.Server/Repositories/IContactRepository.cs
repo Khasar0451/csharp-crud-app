@@ -6,6 +6,7 @@ namespace WebAppContacts.Server.Repositories
     {
         IEnumerable<Contact> GetContacts();
         IEnumerable<ContactCategory> GetContactCategories();
+        string GetContactCategory(int id);
         Contact GetContactById(int contactId);
         void AddContact(Contact contact);
         void DeleteContact(int contactID);

@@ -4,10 +4,14 @@
 </h3>
 
 
-<table *ngIf="contacts"> <!-- wait for contacts to load -->
+<table *ngIf="contacts"> <!-- wait for contacts to load -->    
     <tr *ngFor="let contact_item of contacts">
         <td>
-            {{contact_item.Name}}
+            {{contact_item.contactCategory}}
+            {{contact_item.contactCategoryId}}
+            {{contact_item.email}}
+            {{contact_item.name}}
+
         </td>
         <td>
 

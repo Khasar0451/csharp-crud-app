@@ -8,6 +8,10 @@ namespace WebAppContacts.Server.Entities
         [Required]
         public string Name { get; set; }
         public ICollection<Contact> Contacts { get; set; }
-      
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

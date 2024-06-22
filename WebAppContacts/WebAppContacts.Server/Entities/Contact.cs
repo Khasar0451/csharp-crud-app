@@ -1,4 +1,6 @@
-﻿namespace WebAppContacts.Server.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebAppContacts.Server.Entities
 {
     public class Contact
     {
@@ -8,9 +10,9 @@
         public string Email { get; set; }
         public string Password { get; set; }
         public int ContactCategoryId { get; set; }
-        public ContactCategory ContactCategory { get; set; }
+        public string Category { get; set; }
         public int ContactSubcategoryId { get; set; }
-        public ContactSubcategory  ContactSubcategory { get; set; }
+        public string Subcategory { get; set; }
         public string Number { get; set; }
         public DateOnly Birthdate { get; set; }
     }
