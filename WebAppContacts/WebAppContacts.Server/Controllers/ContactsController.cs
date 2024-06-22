@@ -45,10 +45,12 @@ namespace WebAppContacts.Server.Controllers
         }
 
         [HttpPatch("update/{id}")]
-        public ActionResult UpdateContact(int id, JsonPatchDocument<ContactDTO>contactDTO)
+        public ActionResult UpdateContact(int id, JsonPatchDocument<ContactUpdateDTO>contactPatchDocument)
         {
             Contact contact = unitOfWork.ContactRepository.GetContactById(id);
-            mapper.Map(contactDTO, contact);
+            ContactUpdateDTO contactToPatch = mapper.Map<ContactUpdateDTO>(contact);
+            contactPatchDocument.ApplyTo(contactToPatch, ModelState);
+            mapper.Map(contactToPatch, contact);
             unitOfWork.Save();
             return Ok();
         }

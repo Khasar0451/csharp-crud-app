@@ -10,6 +10,8 @@ namespace WebAppContacts.Server
         {
             CreateMap<Contact, ContactDTO>();
             CreateMap<ContactDTO, Contact>();
+            CreateMap<ContactUpdateDTO, Contact>();
+            CreateMap<Contact, ContactUpdateDTO>();
         }
     }
 }
