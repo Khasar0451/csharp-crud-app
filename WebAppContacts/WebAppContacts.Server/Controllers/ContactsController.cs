@@ -21,11 +21,21 @@ namespace WebAppContacts.Server.Controllers
 
         }
 
+        //TO DO: Add other responses (errors, created, etc)
+
         [HttpGet]
         public ActionResult GetContacts()
         {
             IEnumerable<Contact> contacts = unitOfWork.ContactRepository.GetContacts();
             return Ok(mapper.Map<IEnumerable<ContactDTO>>(contacts));
+        
+        }
+        
+        [HttpGet("categories")]
+        public ActionResult GetContactCategories()
+        {
+            IEnumerable<ContactCategory> cat = unitOfWork.ContactRepository.GetContactCategories();
+            return Ok(cat);
         
         }
 

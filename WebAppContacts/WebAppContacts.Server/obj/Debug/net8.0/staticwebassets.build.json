@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z6HzQ85sgvkqiYjQUWNlyG/157cWoz7xM6Jhi1Sbm8k=",
+  "Hash": "AMwBSJ4jJ8hrnpgZnv5MLr68sbCtcbn2KXNrS+fTmMM=",
   "Source": "WebAppContacts.Server",
   "BasePath": "_content/WebAppContacts.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "webappcontacts.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

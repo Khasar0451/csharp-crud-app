@@ -33,6 +33,12 @@ namespace WebAppContacts.Server.Repositories
         {
             return ctx.Contacts.ToList();
         }
+        public IEnumerable<ContactCategory> GetContactCategories()
+        {
+            return ctx.Categories.ToList();
+        }
+
+
 
         public void UpdateContact(Contact contact)
         {

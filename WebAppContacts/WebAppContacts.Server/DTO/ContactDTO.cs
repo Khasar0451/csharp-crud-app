@@ -16,14 +16,14 @@ namespace WebAppContacts.Server.DTO
         [Required]
         public string Password { get; set; }
         [Required]
-        public string Category { get; set; }
+        public int ContactCategoryId { get; set; }
         [Required]
-        public string Subcategory { get; set; }
+        public int ContactSubcategoryId { get; set; }
         
         [Required]
         [Phone]
         public string Number { get; set; }
-        [Required]
-        public DateOnly Birthdate { get; set; }
+        //[Required]
+        //public DateOnly Birthdate { get; set; }
     }
 }
