@@ -28,11 +28,19 @@ namespace WebAppContacts.Server.Controllers
         [HttpGet]
         public ActionResult GetContacts()
         {
-            IEnumerable<Contact> contacts = unitOfWork.ContactRepository.GetContacts();
-            return Ok(mapper.Map<IEnumerable<ContactDTO>>(contacts));
-        
+            IEnumerable<Contact> contacts = unitOfWork.ContactRepository.GetContacts(); //database always return in basic Contact type
+            return Ok(mapper.Map<IEnumerable<ContactListDTO>>(contacts));               //Mapping to DTO type before sending to user
         }
-        
+
+        [HttpGet("{id}")]
+        public ActionResult<string> GetContact(int id)
+        {
+            Contact contact = unitOfWork.ContactRepository.GetContactById(id);
+            ContactDTO contactDTO = mapper.Map<ContactDTO>(contact);
+            return Ok(contactDTO);
+        }
+
+
         [HttpGet("categories")]
         public ActionResult GetContactCategories()
         {
@@ -46,33 +54,30 @@ namespace WebAppContacts.Server.Controllers
             string cat = unitOfWork.ContactRepository.GetContactCategory(id);
             return (cat);
         }        
+
         [HttpGet("subcategories")]
         public ActionResult GetContactSubcategories()
         {
-            IEnumerable<ContactCategory> cat = unitOfWork.ContactRepository.GetContactCategories();
+            IEnumerable<ContactSubcategory> cat = unitOfWork.ContactRepository.GetContactSubcategories();
             return Ok(cat);
         }        
 
         [HttpGet("subcategories/{id}")]
         public string GetContactSubcategory(int id)
         {
-            string cat = unitOfWork.ContactRepository.GetContactCategory(id);
+            string cat = unitOfWork.ContactRepository.GetContactSubcategory(id);
             return (cat);
         }
 
-        [HttpGet("{id}")]
-        public ActionResult<string>GetContact(int id)
-        {
-            return Ok(unitOfWork.ContactRepository.GetContactById(id));
-        }
-
+ 
         [HttpPut("add")]
-        public ActionResult AddContact(ContactDTO contactDTO)
+        public ActionResult AddContact(ContactAddDTO contactAddDTO)
         {
             try
             {
-                Contact contact = mapper.Map<Contact>(contactDTO);
-                contact.Category = GetContactCategory(contact.ContactCategoryId);
+                Contact contact = mapper.Map<Contact>(contactAddDTO);
+                contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
+                contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
                 unitOfWork.ContactRepository.AddContact(contact);
                 unitOfWork.Save();
                 return Ok();
@@ -81,8 +86,6 @@ namespace WebAppContacts.Server.Controllers
             {
                 return BadRequest("Email already in use");
             }
-
-
         }
 
         [HttpPatch("update/{id}")]

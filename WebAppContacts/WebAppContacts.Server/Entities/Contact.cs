@@ -10,9 +10,9 @@ namespace WebAppContacts.Server.Entities
         public string Email { get; set; }
         public string Password { get; set; }
         public int ContactCategoryId { get; set; }
-        public string Category { get; set; }
+        public string ContactCategory { get; set; }
         public int ContactSubcategoryId { get; set; }
-        public string Subcategory { get; set; }
+        public string ContactSubcategory { get; set; }
         public string Number { get; set; }
         public DateOnly Birthdate { get; set; }
     }
