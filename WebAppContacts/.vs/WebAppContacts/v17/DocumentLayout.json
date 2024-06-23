@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -119,7 +119,7 @@
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
               "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
               "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAFAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCUAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-06-23T19:10:15.593Z",
               "EditorCaption": ""
@@ -134,8 +134,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Migrations\\20240623180055_SurnameTypoFix.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:04:00.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:04:00.108Z"
             },
             {
               "$type": "Document",
@@ -151,13 +150,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "contact-list.component.html",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html",
               "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html",
               "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-06-23T12:44:25.423Z",
               "EditorCaption": ""
@@ -172,8 +171,7 @@
               "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-23T12:37:22.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T12:37:22.512Z"
             },
             {
               "$type": "Document",
@@ -185,8 +183,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Entities\\ContactSubcategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:26:26.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T12:26:26.363Z"
             },
             {
               "$type": "Document",
@@ -202,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\ContactRepository.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\ContactRepository.cs",
@@ -210,8 +207,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Repositories\\ContactRepository.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAASwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:35:56.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:35:56.022Z"
             },
             {
               "$type": "Document",
@@ -223,8 +219,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:06:17.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:06:17.078Z"
             },
             {
               "$type": "Document",
@@ -247,8 +242,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:06:25.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:06:25.654Z"
             },
             {
               "$type": "Document",
@@ -272,8 +266,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\MapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:47:32.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:47:32.362Z"
             },
             {
               "$type": "Document",
@@ -285,8 +278,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\DTO\\ContactAddDTO.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:44:25.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:44:25.837Z"
             },
             {
               "$type": "Document",
@@ -298,8 +290,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\DTO\\ContactUpdateDTO.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAiwAkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:32:52.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:32:52.366Z"
             },
             {
               "$type": "Document",
@@ -311,8 +302,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\DTO\\ContactListDTO.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:22:30.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:22:30.709Z"
             },
             {
               "$type": "Document",
@@ -324,8 +314,7 @@
               "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-23T11:10:44.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:10:44.531Z"
             },
             {
               "$type": "Document",
@@ -337,8 +326,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Data\\ContactContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:40:20.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:40:20.328Z"
             },
             {
               "$type": "Document",
@@ -350,8 +338,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Entities\\ContactCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:40:08.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:40:08.781Z"
             },
             {
               "$type": "Document",
@@ -363,8 +350,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\DTO\\ContactDTO.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAiwAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:38:31.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:38:31.304Z"
             },
             {
               "$type": "Document",
@@ -376,8 +362,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Entities\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:37:52.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:37:52.744Z"
             },
             {
               "$type": "Document",
@@ -389,8 +374,7 @@
               "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-22T19:33:19.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:33:19.785Z"
             },
             {
               "$type": "Document",
@@ -402,8 +386,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Controllers\\ContactsController.cs",
               "ViewState": "AQIAAD8AAAAAAAAAAAAtwEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:31:43.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:31:43.174Z"
             }
           ]
         }

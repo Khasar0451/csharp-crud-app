@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, delay, retry } from 'rxjs';
 import { IContact } from '../model/contact.interface';
 import { IContactCategory } from '../model/contactCategory.interface';
 
@@ -14,7 +14,7 @@ export class ContactService {
 
 
   getContacts(): Observable<Array<IContact>> {
-    return this.http.get<Array<IContact>>('/api/Contacts');
+    return this.http.get<Array<IContact>>(this.api);
   }
   getContact(id:number): Observable<IContact>{
     return this.http.get<IContact>(this.api+id);

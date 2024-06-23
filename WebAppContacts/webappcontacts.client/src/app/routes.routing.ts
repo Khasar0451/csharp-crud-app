@@ -5,20 +5,20 @@ import { ContactAddComponent } from './contact/view/contact-add/contact-add.comp
 
 const routes: Routes = [
   {  
-    component: ContactListComponent,
-    path: ""
-  },
-  {  
-    component: ContactListComponent,
-    path: "contacts"
+    component: ContactAddComponent,
+    path: "contacts/add"
   },
   {  
     component: ContactComponent,
     path: "contacts/:id"
   },
   {  
-    component: ContactAddComponent,
-    path: "contacts/add"
+    component: ContactListComponent,
+    path: "contacts"
+  },
+  {  
+    component: ContactListComponent,
+    path: ""
   },
 ];
 
