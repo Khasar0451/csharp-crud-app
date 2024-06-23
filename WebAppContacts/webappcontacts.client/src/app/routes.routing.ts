@@ -14,7 +14,7 @@ const routes: Routes = [
   },
   {  
     component: ContactAddComponent,
-    path: "add"
+    path: "contacts/add"
   },
 ];
 
