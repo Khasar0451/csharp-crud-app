@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, delay, retry } from 'rxjs';
 import { IContact } from '../model/contact.interface';
 import { IContactCategory } from '../model/contactCategory.interface';
+import { IContactSubcategory } from '../model/contactSubcategory.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,12 @@ export class ContactService {
   api: string = 'api/Contacts/'
   constructor(private http:HttpClient) { }
 
-
+  getContactsCategories(): Observable<Array<IContactCategory>> {
+    return this.http.get<Array<IContactCategory>>(this.api + 'categories');
+  }
+  getContactsSubcategories(): Observable<Array<IContactSubcategory>> {
+    return this.http.get<Array<IContactSubcategory>>(this.api + 'subcategories');
+  }
   getContacts(): Observable<Array<IContact>> {
     return this.http.get<Array<IContact>>(this.api);
   }

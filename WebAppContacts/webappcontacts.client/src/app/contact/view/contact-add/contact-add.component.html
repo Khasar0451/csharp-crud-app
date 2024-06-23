@@ -4,7 +4,7 @@
 
 <form (ngSubmit)="onSubmit()">
   <div>
-    <label for="name">Name: </label> 
+    <label for="name">Name: </label>
     <!-- ngmodel is used for two-way binding, to keep in sync variable and input -->
     <input [(ngModel)]="contact.name" id="name" name="name" />
   </div>
@@ -12,6 +12,38 @@
   <div>
     <label for="surname">Surname: </label>
     <input [(ngModel)]="contact.surname" id="surname" name="surname" />
+  </div>
+
+  <div>
+    <label for="email">Email: </label>
+    <input [(ngModel)]="contact.email" id="email" name="email" type="email" />
+  </div>
+
+  <div>
+    <label for="phone">Phone: </label>
+    <input [(ngModel)]="contact.number" id="phone" name="phone" type="tel" />
+  </div>
+
+  <div>
+    <label for="birthdate">Birthdate: </label>
+    <input [(ngModel)]="contact.birthdate" id="birthdate" name="birthdate" type="date" />
+  </div>
+
+  <div>
+    <label for="category">Category: </label>
+    <select [(ngModel)]="contact.contactCategoryId" id="category" name="category">
+      <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="subcategory">Subcategory: </label>
+    <select [(ngModel)]="contact.contactsubcategory" id="subcategory" name="subcategory" *ngIf="contact.contactCategoryId == 1">
+      <option *ngFor="let subcategory of subcategories" [value]="subcategory.id">   <!--Only first category can choose predefined subcategory-->
+        {{ subcategory.name }}
+      </option>
+    </select>
+    <input *ngIf="contact.contactCategoryId == 3" [(ngModel)]="contact.contactsubcategory" id="subcategory" name="subcategory" />
   </div>
 
   <div>
