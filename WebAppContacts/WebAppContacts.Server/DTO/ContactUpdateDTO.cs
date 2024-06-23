@@ -7,7 +7,7 @@ namespace WebAppContacts.Server.DTO
         [EmailAddress]
         public string Email { get; set; }
         public string Name { get; set; }
-        public string Surame { get; set; }
+        public string Surname { get; set; }
         [Phone]
         public string Number { get; set; }
         public string Password { get; set; }

@@ -1,6 +1,6 @@
 ﻿using WebAppContacts.Server.Data;
 using WebAppContacts.Server.Entities;
-
+using Microsoft.EntityFrameworkCore;
 namespace WebAppContacts.Server.Repositories
 {
     public class ContactRepository : IContactRepository
@@ -55,7 +55,7 @@ namespace WebAppContacts.Server.Repositories
 
         public void UpdateContact(Contact contact)
         {
-            ctx.Entry(contact).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            ctx.Entry(contact).State = EntityState.Modified;
         }
 
         public void Save()

@@ -4,13 +4,13 @@
     <a [routerLink]="['/contacts/add']">Add new contact</a>
 </h3>
 
-<table *ngIf="contacts"> <!-- wait for contacts to load from backend -->    
+<table *ngIf="contacts.length > 0"> <!-- wait for contacts to load from backend -->
   <tr *ngFor="let contact_item of contacts">
     <td>
       {{contact_item.name}}
     </td>
     <td>
-      {{contact_item.surame}}
+      {{contact_item.surname}}
     </td>
     <td>
       {{contact_item.email}}

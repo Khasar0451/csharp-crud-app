@@ -12,8 +12,8 @@ using WebAppContacts.Server.Data;
 namespace WebAppContacts.Server.Migrations
 {
     [DbContext(typeof(ContactContext))]
-    [Migration("20240622195037_ChangedContact")]
-    partial class ChangedContact
+    [Migration("20240623180055_SurnameTypoFix")]
+    partial class SurnameTypoFix
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,12 +36,16 @@ namespace WebAppContacts.Server.Migrations
                     b.Property<DateOnly>("Birthdate")
                         .HasColumnType("date");
 
-                    b.Property<string>("Category")
+                    b.Property<string>("ContactCategory")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ContactCategoryId")
                         .HasColumnType("int");
+
+                    b.Property<string>("ContactSubcategory")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ContactSubcategoryId")
                         .HasColumnType("int");
@@ -59,10 +63,6 @@ namespace WebAppContacts.Server.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Subcategory")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
