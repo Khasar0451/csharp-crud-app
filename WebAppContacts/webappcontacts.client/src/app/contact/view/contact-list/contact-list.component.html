@@ -1,11 +1,10 @@
-<header>List of contacts</header>
+<header>List of contacts </header>
+
 <h3>
-    <!--<a href="add">Add new contact</a>-->
     <a [routerLink]="['/contacts/add']">Add new contact</a>
 </h3>
 
-
-<table *ngIf="contacts"> <!-- wait for contacts to load -->    
+<table *ngIf="contacts"> <!-- wait for contacts to load from backend -->    
   <tr *ngFor="let contact_item of contacts">
     <td>
       {{contact_item.name}}
@@ -23,7 +22,7 @@
       <a [routerLink]="['/contacts/edit', contact_item.id]">Edit</a>
     </td>
     <td>
-      <a [routerLink]="['/contacts/delete', contact_item.id]">Delete</a>
+      <a (click)="onDelete(contact_item)">Delete</a>
     </td>
 
   </tr>

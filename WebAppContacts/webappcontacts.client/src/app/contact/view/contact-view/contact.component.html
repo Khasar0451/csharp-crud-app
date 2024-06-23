@@ -1,3 +1,32 @@
-<!-- <h2>One day this will be contact: {{contact.Name}} {{contact.Phone}}</h2> -->
- <p>XD</p>
- <p>{{id}}</p>
+<article *ngIf="contact">
+    <br><br><br>
+    <table > 
+        <tr>
+            Name: {{contact.name}}
+        </tr>
+        <tr>
+            Surname: {{contact.surame}}
+        </tr>
+        <tr>
+            Email: {{contact.email}}
+        </tr>
+        <tr>
+            Password: {{contact.password}}
+        </tr>
+        <tr>
+            Category: {{contact.contactCategory}}
+        </tr>
+        <tr>
+            Subcategory: {{contact.contactsubcategory}}
+        </tr>
+        <tr>
+            Phone number: {{contact.number}}
+        </tr>
+        <tr>
+            Birthdate: {{contact.birthdate}}
+        </tr>
+
+        
+    </table>
+</article>
+ 

@@ -9,4 +9,5 @@ export interface IContact {
     contactsubcategoryid: number;
     contactsubcategory: string;
     number: string;
+    birthdate: Date
 }

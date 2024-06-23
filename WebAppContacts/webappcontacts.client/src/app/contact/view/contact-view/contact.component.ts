@@ -5,20 +5,21 @@ import { ContactService } from "../../service/contact.service";
 
 @Component({
   selector: 'app-contact',  //name for html tag
-  templateUrl: 'contact.component.html' //displayed html 
+  templateUrl: 'contact.component.html', //displayed html 
+  styleUrl: 'contact.component.css'
 })
 export class ContactComponent implements OnInit {
-  @Input() contact_input! : IContact  
   contact!: IContact  //I'm asserting typescript that contact won't be null
-  id!:number;
+  
 
   constructor(private service: ContactService, private route: ActivatedRoute){}
  
   ngOnInit(){
     this.route.params.subscribe(params => {
-      this.id = params['id']
-      // this.service.getContact(params['id'])
-      // .subscribe(contact => this.contact = contact)
+      let id:number = params['id']
+      this.service.getContact(id).subscribe(
+        contact => {this.contact = contact }
+      )
     })
   }
 }

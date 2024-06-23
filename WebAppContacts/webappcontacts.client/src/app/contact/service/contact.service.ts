@@ -9,22 +9,20 @@ import { IContactCategory } from '../model/contactCategory.interface';
 })
 export class ContactService {
 
+  api: string = 'api/Contacts/'
   constructor(private http:HttpClient) { }
 
-  // getContacts(): Observable<Array<IContact>>{
-  //   return this.http.get<Array<IContact>>('contacts/data.json')
-  // }
-  /*getContacts(): Observable<Array<IContact>>{*/
+
   getContacts(): Observable<Array<IContact>> {
     return this.http.get<Array<IContact>>('/api/Contacts');
   }
   getContact(id:number): Observable<IContact>{
-    return this.http.get<IContact>('/api/Contacts/'+id);
+    return this.http.get<IContact>(this.api+id);
   }
-  getContactsCategories(): Observable<Array<IContactCategory>> {
-    return this.http.get<Array<IContactCategory>>('/api/Contacts/categories');
+  deleteContact(id: number): void {
+    this.http.delete(this.api + id);
   }
-  getContactCategory(id: number): Observable<IContactCategory>{
-    return this.http.get<IContactCategory>('api/Contacts/categories/'+id);
+  addContact(form: IContact): Observable<IContact>{
+    return this.http.put<IContact>(this.api, form);
   }
 }

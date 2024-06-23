@@ -11,13 +11,16 @@ import { IContact } from '../../model/contact.interface';
 })
 export class ContactListComponent implements OnInit{
 
-   contacts: Array<IContact> = [];
-
+  contacts: Array<IContact> = [];
   constructor(private contactService:ContactService){}  //service injection
 
   ngOnInit(): void {
     this.contactService.getContacts().subscribe(
       contacts => { this.contacts = contacts; }
     )
+  }
+
+  onDelete(contact: IContact): void {
+    this.contactService.deleteContact(contact.id)
   }
 }
