@@ -69,6 +69,18 @@ namespace WebAppContacts.Server.Controllers
             return (cat);
         }
 
+        private void addCategories(Contact contact)
+        {
+            contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
+            if (contact.ContactCategoryId == 1)
+            {
+                contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
+            }
+            else if (contact.ContactCategoryId != 1)
+            {
+                contact.ContactSubcategoryId = -1;
+            }
+        }
  
         [HttpPut("add")]
         public ActionResult AddContact(ContactAddDTO contactAddDTO)
@@ -76,8 +88,9 @@ namespace WebAppContacts.Server.Controllers
             try
             {
                 Contact contact = mapper.Map<Contact>(contactAddDTO);
-                contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
-                contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
+                //contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
+                //contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
+                addCategories(contact);
                 unitOfWork.ContactRepository.AddContact(contact);
                 unitOfWork.Save();
                 return Ok();
@@ -88,15 +101,37 @@ namespace WebAppContacts.Server.Controllers
             }
         }
 
+
+        //[HttpPut("update/{id}")]
+        //public ActionResult UpdateContact(int id, ContactDTO contactDto)
+        //{
+        //    try
+        //    {
+        //        Contact contact = mapper.Map<Contact>(contactDto);
+        //        contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
+        //        contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
+        //        unitOfWork.ContactRepository.AddContact(contact);
+        //        unitOfWork.Save();
+        //        return Ok();
+        //    }
+        //    catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2627 || sqlEx.Number == 2601))
+        //    {
+        //        return BadRequest("Email already in use");
+        //    }
+        //}
+
         [HttpPatch("update/{id}")]
-        public ActionResult UpdateContact(int id, JsonPatchDocument<ContactUpdateDTO>contactPatchDocument)
+        public ActionResult UpdateContact(int id, JsonPatchDocument<ContactDTO> contactPatchDocument)
         {
             try
             {
                 Contact contact = unitOfWork.ContactRepository.GetContactById(id);
-                ContactUpdateDTO contactToPatch = mapper.Map<ContactUpdateDTO>(contact);
+                ContactDTO contactToPatch = mapper.Map<ContactDTO>(contact);
                 contactPatchDocument.ApplyTo(contactToPatch, ModelState);
                 mapper.Map(contactToPatch, contact);
+                //contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
+                //contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
+                addCategories(contact);
                 unitOfWork.Save();
                 return Ok();
             }

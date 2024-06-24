@@ -1,10 +1,52 @@
-{
-  // This file allows you to configure ESLint according to your project's needs, so that you
-  // can control the strictness of the linter, the plugins to use, and more.
+<header><h2>Edit Contact</h2></header>
 
-  // For more information about configuring ESLint, visit https://eslint.org/docs/user-guide/configuring/
+<form *ngIf="contact" #form="ngForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="name">Name: </label>
+    <input [(ngModel)]="contact.name" id="name" name="name" />
+  </div>
+  <div>
+    <label for="surname">Surname: </label>
+    <input [(ngModel)]="contact.surname" id="surname" name="surname" />
+  </div>
 
-  "root": true,
-  "extends": "eslint:recommended",
-  "rules": {}
-}
+  <div>
+    <label for="email">Email: </label>
+    <input [(ngModel)]="contact.email" id="email" name="email" type="email" />
+  </div>
+
+  <div>
+    <label for="phone">Phone: </label>
+    <input [(ngModel)]="contact.number" id="phone" name="phone" type="tel" />
+  </div>
+
+  <div>
+    <label for="birthdate">Birthdate: </label>
+    <input [(ngModel)]="contact.birthdate" id="birthdate" name="birthdate" type="date" />
+  </div>
+
+  <div>
+    <label for="category">Category: </label>
+    <select [(ngModel)]="contact.contactCategoryId" id="category" name="category">
+      <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="subcategory">Subcategory: </label>
+    <select [(ngModel)]="contact.contactSubcategoryId" id="subcategory" name="subcategory"
+      *ngIf="contact.contactCategoryId == 1">
+      <option *ngFor="let subcategory of subcategories" [value]="subcategory.id">
+        <!--Only first category can choose predefined subcategory-->
+        {{ subcategory.name }}
+      </option>
+    </select>
+    <input *ngIf="contact.contactCategoryId == 3" [(ngModel)]="contact.contactSubcategory" id="subcategory"
+      name="subcategory" />
+  </div>
+
+  <div>
+    <button type="submit">Update</button>
+    <button (click)="form.resetForm(defaultContact)" type="button">Reset</button>
+  </div>
+</form>

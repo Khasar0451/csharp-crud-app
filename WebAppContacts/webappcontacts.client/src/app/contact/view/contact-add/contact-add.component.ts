@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { IContact } from '../../model/contact.interface';
 import { ContactService } from '../../service/contact.service';
 import { Router } from '@angular/router';
-import {FormsModule, ReactiveFormsModule} from "@angular/forms"
+import { FormsModule, ReactiveFormsModule } from "@angular/forms"
 import { IContactCategory } from '../../model/contactCategory.interface';
 import { IContactSubcategory } from '../../model/contactSubcategory.interface';
 import { NgFor, NgIf } from '@angular/common';
@@ -11,7 +11,7 @@ import { NgFor, NgIf } from '@angular/common';
   templateUrl: './contact-add.component.html',
   styleUrls: ['./contact-add.component.css'],
   standalone: true,
-  imports:[
+  imports: [
     ReactiveFormsModule,
     FormsModule,
     NgFor, NgIf
@@ -22,7 +22,7 @@ export class ContactAddComponent implements OnInit {
   contact!: IContact
   categories!: IContactCategory[]
   subcategories!: IContactSubcategory[]
-  constructor(private contactService: ContactService, private router:Router) { }
+  constructor(private contactService: ContactService, private router: Router) { }
 
   loadCategories(): void {
     this.contactService.getContactsCategories().subscribe(
@@ -39,7 +39,7 @@ export class ContactAddComponent implements OnInit {
       }
     );
   }
-    
+
   ngOnInit() {
     this.loadCategories()
     this.loadSubcategories()
@@ -51,11 +51,11 @@ export class ContactAddComponent implements OnInit {
       password: "",
       contactCategoryId: 0,
       contactCategory: "",
-      contactsubcategoryid: 0,
-      contactsubcategory: "",
+      contactSubcategoryId: 0,
+      contactSubcategory: "",
       number: "",
       birthdate: new Date(0)
-      };
+    };
   }
 
   onSubmit(): void {

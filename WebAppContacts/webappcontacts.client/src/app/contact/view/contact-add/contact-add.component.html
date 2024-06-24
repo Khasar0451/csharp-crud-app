@@ -38,12 +38,12 @@
 
   <div>
     <label for="subcategory">Subcategory: </label>
-    <select [(ngModel)]="contact.contactsubcategory" id="subcategory" name="subcategory" *ngIf="contact.contactCategoryId == 1">
+    <select [(ngModel)]="contact.contactSubcategory" id="subcategory" name="subcategory" *ngIf="contact.contactCategoryId == 1">
       <option *ngFor="let subcategory of subcategories" [value]="subcategory.id">   <!--Only first category can choose predefined subcategory-->
         {{ subcategory.name }}
       </option>
     </select>
-    <input *ngIf="contact.contactCategoryId == 3" [(ngModel)]="contact.contactsubcategory" id="subcategory" name="subcategory" />
+    <input *ngIf="contact.contactCategoryId == 3" [(ngModel)]="contact.contactSubcategory" id="subcategory" name="subcategory" />
   </div>
 
   <div>

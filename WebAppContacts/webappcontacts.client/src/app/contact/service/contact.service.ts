@@ -31,4 +31,9 @@ export class ContactService {
   addContact(form: IContact): Observable<IContact>{
     return this.http.put<IContact>(this.api, form);
   }
+  editContact(patchOperations: any[], id: number): Observable<IContact>{
+    //return this.http.patch<IContact>(this.api + 'update/' + form.id, form);
+    return this.http.patch<IContact>(this.api + 'update/' + id, patchOperations);
+  }
+
 }

@@ -6,8 +6,8 @@ export interface IContact {
     password: string;  
     contactCategoryId: number;
     contactCategory: string;
-    contactsubcategoryid: number;
-    contactsubcategory: string;
+    contactSubcategoryId: number;
+    contactSubcategory: string;
     number: string;
     birthdate: Date
 }
