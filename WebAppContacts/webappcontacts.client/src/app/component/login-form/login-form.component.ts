@@ -10,6 +10,9 @@ import { IUser } from '../../contact/model/user.interface';
   styleUrls: ['./login-form.component.css'],
 
 })
+
+//This authentication is not made secure yet
+
 export class LoginFormComponent implements OnInit {
   username: string = ""
   password: string = ""
@@ -22,7 +25,8 @@ export class LoginFormComponent implements OnInit {
     const user: IUser = {username: this.username, password: this.password}
     const token = this.userService.authenticate(user)
     if (token){
-      localStorage.setItem('token', token.username)
+      localStorage.setItem('activeUser', token.username)
+      location.reload()
     }
     else {
       console.log("Error when logging in")

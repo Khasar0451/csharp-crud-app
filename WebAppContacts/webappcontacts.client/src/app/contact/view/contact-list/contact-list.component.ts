@@ -10,11 +10,14 @@ import { IContact } from '../../model/contact.interface';
   styleUrl: './contact-list.component.css'
 })
 export class ContactListComponent implements OnInit{
-
+  isLoggedIn: boolean = false
   contacts: Array<IContact> | undefined ;
   constructor(private contactService:ContactService){}  //service injection
 
   ngOnInit(): void {
+    if (localStorage.getItem('activeUser') != null){
+      this.isLoggedIn = true;
+    }
     this.contactService.getContacts().pipe(
       retry({count:10, delay:1000})).subscribe(  //ensures backend have time to load
       contacts => { this.contacts = contacts; }

@@ -1,7 +1,7 @@
 <header>List of contacts </header>
 
 <h3>
-    <a [routerLink]="['/contacts/add']">Add new contact</a>
+    <a *ngIf="" [routerLink]="['/contacts/add']">Add new contact</a>
 </h3>
 
 <table *ngIf="contacts"> <!-- wait for contacts to load from backend -->
@@ -19,10 +19,10 @@
       <a [routerLink]="['/contacts', contact_item.id]">View</a>
     </td>
     <td>
-      <a [routerLink]="['/contacts/edit', contact_item.id]">Edit</a>
+      <a *ngIf="isLoggedIn" [routerLink]="['/contacts/edit', contact_item.id]">Edit</a>
     </td>
     <td>
-      <button (click)="onDelete(contact_item)">Delete</button>
+      <button *ngIf="isLoggedIn" (click)="onDelete(contact_item)">Delete</button>
     </td>
 
   </tr>

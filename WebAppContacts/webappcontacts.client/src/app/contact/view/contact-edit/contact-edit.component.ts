@@ -22,6 +22,7 @@ export class ContactEditComponent implements OnInit {
   categories!: IContactCategory[]
   subcategories!: IContactSubcategory[]
   defaultContact!: IContact;
+  isLoggedIn = false
   id = 0
 
 
@@ -83,6 +84,10 @@ export class ContactEditComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (localStorage.getItem('activeUser') != null){
+      this.isLoggedIn = true;
+    }
+
     this.loadCategories()
     this.loadSubcategories()
 

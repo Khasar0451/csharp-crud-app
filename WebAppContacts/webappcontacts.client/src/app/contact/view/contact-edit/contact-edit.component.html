@@ -1,6 +1,6 @@
 <header><h2>Edit Contact</h2></header>
 
-<form *ngIf="contact" #form="ngForm" (ngSubmit)="onSubmit()">
+<form *ngIf="contact && isLoggedIn" #form="ngForm" (ngSubmit)="onSubmit()">
   <div>
     <label for="name">Name: </label>
     <input [(ngModel)]="contact.name" id="name" name="name" />

@@ -22,6 +22,7 @@ export class ContactAddComponent implements OnInit {
   contact!: IContact
   categories!: IContactCategory[]
   subcategories!: IContactSubcategory[]
+  isLoggedIn = false
   constructor(private contactService: ContactService, private router: Router) { }
 
   loadCategories(): void {
@@ -41,6 +42,9 @@ export class ContactAddComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (localStorage.getItem('activeUser') != null){
+      this.isLoggedIn = true;
+    }
     this.loadCategories()
     this.loadSubcategories()
     this.contact = {
