@@ -22,6 +22,6 @@ export class ContactListComponent implements OnInit{
   }
 
   onDelete(contact: IContact): void {
-    this.contactService.deleteContact(contact.id)
+    this.contactService.deleteContact(contact.id).subscribe(() => this.ngOnInit())    //reload page 
   }
 }

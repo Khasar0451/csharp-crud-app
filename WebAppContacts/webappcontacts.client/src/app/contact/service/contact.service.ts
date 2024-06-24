@@ -25,8 +25,8 @@ export class ContactService {
   getContact(id:number): Observable<IContact>{
     return this.http.get<IContact>(this.api+id);
   }
-  deleteContact(id: number): void {
-    this.http.delete(this.api + id);
+  deleteContact(id: number): Observable<IContact> {
+    return this.http.delete<IContact>(this.api + id);
   }
   addContact(form: IContact): Observable<IContact>{
     return this.http.put<IContact>(this.api, form);

@@ -107,7 +107,7 @@ namespace WebAppContacts.Server.Controllers
         }
 
 
-        [HttpDelete("delete/{id}")]
+        [HttpDelete("{id}")]
         public ActionResult DeleteContact(int id)
         {
             unitOfWork.ContactRepository.DeleteContact(id);
