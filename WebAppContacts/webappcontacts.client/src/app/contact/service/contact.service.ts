@@ -29,7 +29,7 @@ export class ContactService {
     return this.http.delete<IContact>(this.api + id);
   }
   addContact(form: IContact): Observable<IContact>{
-    return this.http.put<IContact>(this.api, form);
+    return this.http.put<IContact>(this.api + 'add', form);
   }
   editContact(patchOperations: any[], id: number): Observable<IContact>{
     //return this.http.patch<IContact>(this.api + 'update/' + form.id, form);

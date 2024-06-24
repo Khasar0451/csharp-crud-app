@@ -11,39 +11,44 @@
 
   <div>
     <label for="surname">Surname: </label>
-    <input [(ngModel)]="contact.surname" id="surname" name="surname" />
+    <input [(ngModel)]="contact.surname" id="surname" name="surname" required/>
   </div>
 
   <div>
     <label for="email">Email: </label>
-    <input [(ngModel)]="contact.email" id="email" name="email" type="email" />
+    <input [(ngModel)]="contact.email" id="email" name="email" type="email" required/>
+  </div>
+
+  <div>
+    <label for="password">Password: </label>
+    <input [(ngModel)]="contact.password" id="password" name="password" type="password" required />
   </div>
 
   <div>
     <label for="phone">Phone: </label>
-    <input [(ngModel)]="contact.number" id="phone" name="phone" type="tel" />
+    <input [(ngModel)]="contact.number" id="phone" name="phone" type="tel" required/>
   </div>
 
   <div>
     <label for="birthdate">Birthdate: </label>
-    <input [(ngModel)]="contact.birthdate" id="birthdate" name="birthdate" type="date" />
+    <input [(ngModel)]="contact.birthdate" id="birthdate" name="birthdate" type="date" required/>
   </div>
 
   <div>
     <label for="category">Category: </label>
-    <select [(ngModel)]="contact.contactCategoryId" id="category" name="category">
+    <select [(ngModel)]="contact.contactCategoryId" id="category" name="category" required>
       <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
     </select>
   </div>
 
   <div>
     <label for="subcategory">Subcategory: </label>
-    <select [(ngModel)]="contact.contactSubcategory" id="subcategory" name="subcategory" *ngIf="contact.contactCategoryId == 1">
+    <select [(ngModel)]="contact.contactSubcategoryId" id="subcategory" name="subcategory" *ngIf="contact.contactCategoryId == 1" required>
       <option *ngFor="let subcategory of subcategories" [value]="subcategory.id">   <!--Only first category can choose predefined subcategory-->
         {{ subcategory.name }}
       </option>
     </select>
-    <input *ngIf="contact.contactCategoryId == 3" [(ngModel)]="contact.contactSubcategory" id="subcategory" name="subcategory" />
+    <input *ngIf="contact.contactCategoryId == 3" [(ngModel)]="contact.contactSubcategory" id="subcategory" name="subcategory" required/>
   </div>
 
   <div>

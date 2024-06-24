@@ -59,9 +59,9 @@ export class ContactAddComponent implements OnInit {
   }
 
   onSubmit(): void {
-    //this.cotactService.addContact(this.contact!). subscribe(  
-    //  () => this.router.navigate(['/contacts'])     //subscribe makes user wait for response, so they can see new data upon returning to main page
-    //)
+    this.contactService.addContact(this.contact!).subscribe(  
+     () => this.router.navigate(['/contacts'])     //subscribe makes user wait for response, so they can see new data upon returning to main page
+    )
     console.log(this.contact);
   }
 }

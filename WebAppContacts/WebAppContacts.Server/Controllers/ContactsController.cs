@@ -24,6 +24,7 @@ namespace WebAppContacts.Server.Controllers
         }
 
         //TO DO: Add other responses (errors, created, etc)
+        //TO DO: Show to user when input doesnt meet requirments (unique email, safe password)
 
         [HttpGet]
         public ActionResult GetContacts()
@@ -88,8 +89,6 @@ namespace WebAppContacts.Server.Controllers
             try
             {
                 Contact contact = mapper.Map<Contact>(contactAddDTO);
-                //contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
-                //contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
                 addCategories(contact);
                 unitOfWork.ContactRepository.AddContact(contact);
                 unitOfWork.Save();
@@ -102,24 +101,6 @@ namespace WebAppContacts.Server.Controllers
         }
 
 
-        //[HttpPut("update/{id}")]
-        //public ActionResult UpdateContact(int id, ContactDTO contactDto)
-        //{
-        //    try
-        //    {
-        //        Contact contact = mapper.Map<Contact>(contactDto);
-        //        contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
-        //        contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
-        //        unitOfWork.ContactRepository.AddContact(contact);
-        //        unitOfWork.Save();
-        //        return Ok();
-        //    }
-        //    catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2627 || sqlEx.Number == 2601))
-        //    {
-        //        return BadRequest("Email already in use");
-        //    }
-        //}
-
         [HttpPatch("update/{id}")]
         public ActionResult UpdateContact(int id, JsonPatchDocument<ContactDTO> contactPatchDocument)
         {
@@ -129,8 +110,6 @@ namespace WebAppContacts.Server.Controllers
                 ContactDTO contactToPatch = mapper.Map<ContactDTO>(contact);
                 contactPatchDocument.ApplyTo(contactToPatch, ModelState);
                 mapper.Map(contactToPatch, contact);
-                //contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
-                //contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
                 addCategories(contact);
                 unitOfWork.Save();
                 return Ok();

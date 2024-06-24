@@ -51,11 +51,17 @@ export class ContactEditComponent implements OnInit {
     if (this.defaultContact.name !== this.contact.name) {
       patchOperations.push({ op: 'replace', path: '/name', value: this.contact.name });
     }
+    if (this.defaultContact.surname !== this.contact.surname) {
+      patchOperations.push({ op: 'replace', path: '/surname', value: this.contact.surname });
+    }
     if (this.defaultContact.email !== this.contact.email) {
       patchOperations.push({ op: 'replace', path: '/email', value: this.contact.email });
     }
     if (this.defaultContact.number !== this.contact.number) {
       patchOperations.push({ op: 'replace', path: '/number', value: this.contact.number });
+    }
+    if (this.defaultContact.password !== this.contact.password) {
+      patchOperations.push({ op: 'replace', path: '/password', value: this.contact.password });
     }
     if (this.defaultContact.birthdate !== this.contact.birthdate) {
       patchOperations.push({ op: 'replace', path: '/birthdate', value: this.contact.birthdate });

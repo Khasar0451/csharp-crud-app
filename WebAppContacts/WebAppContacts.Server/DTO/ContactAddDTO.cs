@@ -27,6 +27,7 @@ namespace WebAppContacts.Server.DTO
         
         [Required]
         public int ContactSubcategoryId { get; set; }
+        public string ContactSubcategory {  get; set; }
 
         [Required]
         [Phone]
