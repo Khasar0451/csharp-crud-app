@@ -11,6 +11,8 @@ namespace WebAppContacts.Server.Repositories
         }
         public IContactRepository ContactRepository => 
             new ContactRepository(ctx);
+        public IUserRepository UserRepository => 
+            new UserRepository(ctx);
 
         public void Save()
         {

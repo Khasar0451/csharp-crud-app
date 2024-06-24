@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/view/contact-view/contact.component'
 import { ContactListComponent } from './contact/view/contact-list/contact-list.component';
 import { LoginFormComponent } from './component/login-form/login-form.component';
 import { RoutesRoutes } from './routes.routing';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { RoutesRoutes } from './routes.routing';
    ],
   imports: [
     BrowserModule, HttpClientModule, 
-    AppRoutingModule, RoutesRoutes
+    AppRoutingModule, RoutesRoutes, FormsModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

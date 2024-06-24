@@ -3,6 +3,7 @@
     public interface IUnitOfWork
     {
         IContactRepository ContactRepository { get; }
+        IUserRepository UserRepository { get; }
         void Save();
     }
 }

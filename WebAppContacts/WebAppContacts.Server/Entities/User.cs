@@ -6,7 +6,7 @@ namespace WebAppContacts.Server.Entities
     {
         public int Id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string Username { get; set; }
         [Required]
         //user password should be salted and hashed
         public string Password{ get; set; }

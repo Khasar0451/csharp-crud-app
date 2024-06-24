@@ -9,6 +9,7 @@ namespace WebAppContacts.Server.Data
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<ContactCategory> Categories { get; set; }
         public DbSet<ContactSubcategory> Subcategories { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
