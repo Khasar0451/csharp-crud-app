@@ -27,7 +27,6 @@ export class UserService {
     let users = this.getUsers()
     if (Object.keys(users).length === 0 ){
       users = [user]
-
     }
     else {
       users.push(user)

@@ -10,11 +10,8 @@ namespace WebAppContacts.Server
         {
             CreateMap<Contact, ContactDTO>();
             CreateMap<ContactDTO, Contact>();
-            
-            CreateMap<ContactUpdateDTO, Contact>();
-            CreateMap<Contact, ContactUpdateDTO>();
 
-            CreateMap<ContactAddDTO, Contact>().ReverseMap();
+            CreateMap<ContactAddDTO, Contact>().ReverseMap();   //maps both way 
 
             CreateMap<Contact, ContactListDTO>();
         }
