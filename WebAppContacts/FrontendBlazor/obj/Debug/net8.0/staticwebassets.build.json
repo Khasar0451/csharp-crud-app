@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "GiaHcnjBpm8739XwgRKxI7WB9qKh2SZUQwit04pl5Og=",
+  "Source": "FrontendBlazor",
+  "BasePath": "_content/FrontendBlazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FrontendBlazor\\wwwroot",
+      "Source": "FrontendBlazor",
+      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\",
+      "BasePath": "_content/FrontendBlazor",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontendBlazor.styles.css",
+      "SourceId": "FrontendBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/FrontendBlazor",
+      "RelativePath": "FrontendBlazor.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontendBlazor.styles.css"
+    },
+    {
+      "Identity": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendBlazor.bundle.scp.css",
+      "SourceId": "FrontendBlazor",
+      "SourceType": "Computed",
+      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/FrontendBlazor",
+      "RelativePath": "FrontendBlazor.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendBlazor.bundle.scp.css"
+    },
+    {
+      "Identity": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\app.css",
+      "SourceId": "FrontendBlazor",
+      "SourceType": "Discovered",
+      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\",
+      "BasePath": "_content/FrontendBlazor",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ]
+}
