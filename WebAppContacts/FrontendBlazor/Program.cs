@@ -1,9 +1,12 @@
+using FrontendBlazor;
 using FrontendBlazor.Components;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents();
+
+builder.Services.AddHttpClient<ContactController>();
+builder.Services.AddScoped<ContactController, ContactController>();
 
 var app = builder.Build();
 

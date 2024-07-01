@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj": {}
+    "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj": {}
   },
   "projects": {
-    "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj": {
+    "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj",
+        "projectUniqueName": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj",
         "projectName": "FrontendBlazor",
-        "projectPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj",
+        "projectPath": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\FrontendBlazor.csproj",
         "packagesPath": "C:\\Users\\lucke\\.nuget\\packages\\",
-        "outputPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\",
+        "outputPath": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucke\\AppData\\Roaming\\NuGet\\NuGet.Config",

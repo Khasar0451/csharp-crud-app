@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "k6L/v1ZpGlKBGNnaKetBYlNRM5R4Poz86nN2+kKlZbw=",
+  "Source": "WebAppContacts.Server",
+  "BasePath": "_content/WebAppContacts.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

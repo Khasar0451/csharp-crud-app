@@ -1,7 +1,25 @@
 ﻿@page "/"
-
+@inject ContactController contactController
 <PageTitle>Contacts</PageTitle>
 
 <h1>Hello, world!</h1>
 
 Welcome to your new app.
+
+@if(contacts is not null){
+    @foreach (var contact in contacts)
+    {
+        @contact.Name
+        @contact.Surname
+        @contact.Email
+    }
+}
+
+@code{
+    ContactList[]? contacts;
+    protected override async Task OnInitializedAsync()
+    {
+        contacts = await contactController.getContacts();
+    }
+
+}
