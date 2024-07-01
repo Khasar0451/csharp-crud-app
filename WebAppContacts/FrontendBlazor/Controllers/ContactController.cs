@@ -3,7 +3,7 @@ namespace FrontendBlazor;
 
 public class ContactController(HttpClient http)
 {
-    string api = "http://localhost:5255/api/Contacts";
+    string api = "http://localhost:5255/api/Contacts/";
 
     public async Task<ContactCategory[]> getContactsCategories()  {
         return await http.GetFromJsonAsync<ContactCategory[]>(api + "categories") ?? [];

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\Backend\\WebAppContacts.Server.csproj": {}
+    "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\WebAppContacts.Server.csproj": {}
   },
   "projects": {
-    "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\Backend\\WebAppContacts.Server.csproj": {
+    "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\WebAppContacts.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\Backend\\WebAppContacts.Server.csproj",
+        "projectUniqueName": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\WebAppContacts.Server.csproj",
         "projectName": "WebAppContacts.Server",
-        "projectPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\Backend\\WebAppContacts.Server.csproj",
+        "projectPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\WebAppContacts.Server.csproj",
         "packagesPath": "C:\\Users\\lucke\\.nuget\\packages\\",
-        "outputPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\Backend\\obj\\",
+        "outputPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucke\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,7 +10,7 @@ public class Contact
     public int ContactCategoryId { get; set; }
     public required string ContactCategory { get; set; }
     public int ContactSubategoryId { get; set; }
-    public required string ContactSubategory { get; set; }
-    public int  PhoneNumber { get; set; }
+    public required string ContactSubcategory { get; set; }
+    public int Number { get; set; }
     public DateOnly Birthdate { get; set; }
 }

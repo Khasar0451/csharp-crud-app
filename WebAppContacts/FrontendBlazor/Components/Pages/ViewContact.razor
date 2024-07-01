@@ -1,0 +1,45 @@
+﻿@page "/{id:int}"
+@inject ContactController contactController
+<h3>Contact details</h3>
+@if (contact is not null)
+{ 
+    <article>
+        <br><br><br>
+        <table>
+            <tr><td>
+                Name: @contact.Name
+            </td></tr>
+            <tr><td>
+                Surname: @contact.Surname
+            </td></tr>
+            <tr><td>
+                Email: @contact.Email
+            </td></tr>
+            <tr><td>
+                Password: @contact.Password
+            </td></tr>
+            <tr><td>
+                Category: @contact.ContactCategory
+            </td></tr>
+            <tr><td>
+                Subcategory: @contact.ContactSubcategory
+            </td></tr>
+            <tr><td>
+                Phone number: @contact.Number
+            </td></tr>
+            <tr><td>
+                Birthdate: @contact.Birthdate
+            </td></tr>
+        </table>
+    </article>
+
+}
+@code {
+    [Parameter]
+    public int? id { get; set; }
+
+    private Contact? contact;
+    protected override async Task OnInitializedAsync(){
+        contact = await contactController.getContact(id.Value);
+    }
+}

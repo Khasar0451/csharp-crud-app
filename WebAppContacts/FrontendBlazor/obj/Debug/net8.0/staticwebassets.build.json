@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GiaHcnjBpm8739XwgRKxI7WB9qKh2SZUQwit04pl5Og=",
+  "Hash": "G8131VW79lbAAmymPFr0tv7ofvK7CyZAqDkIfcJcoY8=",
   "Source": "FrontendBlazor",
   "BasePath": "_content/FrontendBlazor",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FrontendBlazor\\wwwroot",
       "Source": "FrontendBlazor",
-      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\",
+      "ContentRoot": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\",
       "BasePath": "_content/FrontendBlazor",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontendBlazor.styles.css",
+      "Identity": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontendBlazor.styles.css",
       "SourceId": "FrontendBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FrontendBlazor",
       "RelativePath": "FrontendBlazor.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontendBlazor.styles.css"
+      "OriginalItemSpec": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FrontendBlazor.styles.css"
     },
     {
-      "Identity": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendBlazor.bundle.scp.css",
+      "Identity": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendBlazor.bundle.scp.css",
       "SourceId": "FrontendBlazor",
       "SourceType": "Computed",
-      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FrontendBlazor",
       "RelativePath": "FrontendBlazor.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendBlazor.bundle.scp.css"
+      "OriginalItemSpec": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FrontendBlazor.bundle.scp.css"
     },
     {
-      "Identity": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\app.css",
+      "Identity": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\app.css",
       "SourceId": "FrontendBlazor",
       "SourceType": "Discovered",
-      "ContentRoot": "r:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\",
+      "ContentRoot": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\wwwroot\\",
       "BasePath": "_content/FrontendBlazor",
       "RelativePath": "app.css",
       "AssetKind": "All",
