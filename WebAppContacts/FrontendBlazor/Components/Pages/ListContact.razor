@@ -1,0 +1,32 @@
+﻿@page "/"
+@inject ContactController contactController
+<PageTitle>Contacts</PageTitle>
+
+<h1>Your &lt&gtcontact&lt&gt with the world!</h1>
+
+
+@if (contacts is not null)
+{
+    <table>
+        @foreach (var contact in contacts)
+        {
+            <tr>
+                <td>@contact.Name</td>
+                <td>@contact.Surname</td>
+                <td>@contact.Email</td>
+                <td><a href="/@contact.Id">View</a></td>                
+                <td><a href="/edit/@contact.Id">Edit</a></td>
+                <td><a href="/delete/@contact.Id">Delete</a></td>
+            </tr>
+        }
+    </table>
+}
+
+@code {
+    ContactList[]? contacts;
+    protected override async Task OnInitializedAsync()
+    {
+        contacts = await contactController.getContacts();
+    }
+
+}
