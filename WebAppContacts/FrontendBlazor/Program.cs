@@ -6,8 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents();
 
 builder.Services.AddHttpClient<ContactController>();
-builder.Services.AddScoped<ContactController, ContactController>();
-
+builder.Services.AddScoped<ContactController, ContactController>(); 
+builder.Services.AddRazorComponents().AddInteractiveServerComponents();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,6 +23,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.MapRazorComponents<App>();
+app.MapRazorComponents<App>().AddInteractiveServerRenderMode(); ;
 
 app.Run();

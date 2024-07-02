@@ -177,8 +177,7 @@
               "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-23T19:10:15.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T19:10:15.593Z"
             },
             {
               "$type": "Document",
@@ -190,8 +189,7 @@
               "RelativeToolTip": "webappcontacts.client\\src\\app\\routes.routing.ts",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-23T12:53:10.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T12:53:10.381Z"
             },
             {
               "$type": "Document",
@@ -215,8 +213,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\MapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:47:32.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T11:47:32.362Z"
             },
             {
               "$type": "Document",
@@ -228,8 +225,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Migrations\\20240623121658_BugFix.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:19:41.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T12:19:41.766Z"
             },
             {
               "$type": "Document",
@@ -241,8 +237,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Repositories\\ContactRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:35:56.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:35:56.022Z"
             },
             {
               "$type": "Document",
@@ -254,8 +249,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAACNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:06:25.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T18:06:25.654Z"
             },
             {
               "$type": "Document",
@@ -267,8 +261,7 @@
               "RelativeToolTip": "WebAppContacts.Server\\DTO\\ContactDTO.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAiwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:38:31.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:38:31.304Z"
             },
             {
               "$type": "Document",
@@ -278,7 +271,7 @@
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Entities\\Contact.cs",
               "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\Contact.cs",
               "RelativeToolTip": "WebAppContacts.Server\\Entities\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T19:37:52.744Z",
               "EditorCaption": ""

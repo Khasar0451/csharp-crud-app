@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\frontendblazor\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|solutionrelative:models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\frontendblazor\\components\\pages\\addcontact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|solutionrelative:components\\pages\\addcontact.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\frontendblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\frontendblazor\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\frontendblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A2D686F-A91B-4E77-9C4B-CDC327921B5C}|FrontendBlazor.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T20:07:27.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T20:01:52.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Models\\Contact.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Models\\Contact.cs",
+              "RelativeToolTip": "Models\\Contact.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA4wBcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:51:20.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddContact.razor",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Components\\Pages\\AddContact.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\AddContact.razor",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Components\\Pages\\AddContact.razor",
+              "RelativeToolTip": "Components\\Pages\\AddContact.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T19:46:12.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\FrontendBlazor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T19:44:35.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
