@@ -1,5 +1,8 @@
 ﻿@page "/"
 @inject ContactController contactController
+@inject NavigationManager NavManager
+
+@rendermode InteractiveServer
 <PageTitle>Contacts</PageTitle>
 
 <h1>Your &lt&gtcontact&lt&gt with the world!</h1>
@@ -16,7 +19,7 @@
                 <td>@contact.Email</td>
                 <td><a href="/@contact.Id">View</a></td>                
                 <td><a href="/edit/@contact.Id">Edit</a></td>
-                <td><a href="/delete/@contact.Id">Delete</a></td>
+                <td><button @onclick="@(e => onDelete(e, @contact.Id))">Delete</button></td>
             </tr>
         }
     </table>
@@ -29,4 +32,8 @@
         contacts = await contactController.getContacts();
     }
 
+    void onDelete(MouseEventArgs e, int Id) { 
+        contactController.deleteContact(Id);
+        NavManager.NavigateTo("/", true);   //true for force reload
+    }
 }

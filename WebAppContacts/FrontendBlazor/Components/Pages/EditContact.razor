@@ -1,5 +1,107 @@
-﻿<h3>EditContact</h3>
+﻿@page "/edit/{Id:int}"
+@inject ContactController contactController
+@using System.ComponentModel.DataAnnotations
+@inject NavigationManager NavManager
 
+@rendermode InteractiveServer
+
+<h2>Add new contact</h2>
+
+@if (categories is null || subcategories is null)
+{
+    <p>Loading</p>
+}
+else
+{
+    <EditForm Model="@contact" OnValidSubmit="submit" FormName="Add">
+        <div>
+            <label for="name">Name: </label>
+            <input @bind="contact.Name" id="name" name="name" />
+        </div>
+
+        <div>
+            <label for="surname">Surname: </label>
+            <input @bind="contact.Surname" id="surname" name="surname" required />
+        </div>
+
+        <div>
+            <label for="email">Email: </label>
+            <InputText @bind-Value="contact.Email" id="email" name="email" type="email" required />
+        </div>
+
+        <div>
+            <label for="password">Password: </label>
+            <input @bind="contact.Password" id="password" name="password" type="password" required />
+        </div>
+
+        <div>
+            <label for="phone">Phone: </label>
+            <input @bind="contact.Number" id="phone" name="phone" type="tel" required />
+        </div>
+
+        <div>
+            <label for="birthdate">Birthdate: </label>
+            <input @bind="contact.Birthdate" id="birthdate" name="birthdate" required />
+        </div>
+
+        <div>
+            <label for="category">Category: </label>
+            <select @bind="contact.ContactCategoryId" id="category" name="category" required>
+                <option value="">Select a category</option>
+                @foreach (var category in categories)
+                {
+                    <option value="@category.Id"> @category.Name </option>
+                }
+            </select>
+        </div>
+
+        <div>
+            <label for="subcategory">Subcategory: </label>
+            @if (contact.ContactCategoryId == 1)
+            {
+                <select @bind="contact.ContactSubcategoryId" id="subcategory" name="subcategory" required>
+                    @foreach (var subcategory in subcategories)
+                    {
+                        <option value="@subcategory.Id"> @subcategory.Name </option>
+                    }
+                </select>
+            }
+            @if (contact.ContactCategoryId == 3)
+            {
+                <input @bind="contact.ContactSubcategory" id="subcategory" name="subcategory" required />
+            }
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </EditForm>
+}
 @code {
 
+    [Parameter]
+    public int Id { get; set; }
+    private Contact contact = new Contact();
+    ContactCategory[] categories;
+    ContactSubcategory[] subcategories;
+    protected override async Task OnParametersSetAsync()
+    {
+        categories = await contactController.getContactsCategories();
+        subcategories = await contactController.getContactsSubcategories();
+        contact = await contactController.getContact(Id);
+    }
+    private async Task submit()
+    {
+        try
+        {
+            await contactController.editContact(contact, Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+        NavManager.NavigateTo("/");
+    }
 }
+
+

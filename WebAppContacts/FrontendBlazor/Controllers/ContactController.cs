@@ -28,8 +28,8 @@ public class ContactController(HttpClient http)
     {
         return await http.PostAsJsonAsync(api + "add", form);
     }
-    public async Task<HttpResponseMessage> editContact(Contact form)
+    public async Task<HttpResponseMessage> editContact(Contact form, int id)
     {
-        return await http.PatchAsJsonAsync(api + "add", form);
+        return await http.PutAsJsonAsync(api + "update/" + id, form);
     }
 }
