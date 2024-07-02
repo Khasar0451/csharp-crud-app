@@ -94,7 +94,8 @@ else
     {
         try
         {
-            await contactController.editContact(contact, Id);
+            contact.Id = 0;
+            await Task.WhenAll(contactController.deleteContact(Id), contactController.addContact(contact));
         }
         catch (Exception e)
         {
