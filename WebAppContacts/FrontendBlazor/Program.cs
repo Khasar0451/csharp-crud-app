@@ -1,4 +1,5 @@
 using FrontendBlazor;
+
 using FrontendBlazor.Components;
 var builder = WebApplication.CreateBuilder(args);
 
