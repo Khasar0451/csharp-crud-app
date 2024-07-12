@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\Backend\\..\\webappcontacts.client",
+"WorkingDirectory": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\..\\webappcontacts.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

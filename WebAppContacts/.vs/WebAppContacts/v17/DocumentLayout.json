@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\services\\contactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\services\\contactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,52 +59,12 @@
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\dto\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\migrations\\20240623121658_bugfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\migrations\\20240623121658_bugfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\routes.routing.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\routes.routing.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\mapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\service\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\service\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,26 +87,6 @@
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\dto\\contactlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\dto\\contactadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\dto\\contactadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -107,35 +95,56 @@
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\repositories\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.server\\migrations\\20240623180055_surnametypofix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87357902-8FB8-47CC-9056-10440F79F99A}|WebAppContacts.Server\\WebAppContacts.Server.csproj|solutionrelative:webappcontacts.server\\migrations\\20240623180055_surnametypofix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|r:\\programowanie\\projektnetpcv2\\webappcontacts\\webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{47EC0429-97A0-4189-B6DE-103AAC5DD1DC}|webappcontacts.client\\webappcontacts.client.esproj|solutionrelative:webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucke\\AppData\\Local\\SourceServer\\f6ee8a03cfc21d21f417b934590e87762957ab62ccadd87f5accc00eaca19b46\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\routes.routing.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\routes.routing.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\service\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\service\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -145,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -157,55 +166,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "contact-add.component.html",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
-              "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
-              "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-23T22:03:53.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "contact-add.component.ts",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
-              "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
-              "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-23T19:10:15.593Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "routes.routing.ts",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\routes.routing.ts",
-              "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\routes.routing.ts",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\routes.routing.ts",
-              "RelativeToolTip": "webappcontacts.client\\src\\app\\routes.routing.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-06-23T12:53:10.381Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "WebAppContacts.Server\\Entities\\User.cs",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\User.cs",
-              "RelativeToolTip": "WebAppContacts.Server\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:06:17.078Z"
+              "WhenOpened": "2024-07-12T08:52:24.376Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\appsettings.json",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\appsettings.json",
+              "RelativeToolTip": "WebAppContacts.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-12T08:51:28.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Properties\\launchSettings.json",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAppContacts.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-12T08:51:17.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Controllers\\ContactsController.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Controllers\\ContactsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T08:03:12.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MapperProfile.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\MapperProfile.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\MapperProfile.cs",
@@ -213,11 +226,12 @@
               "RelativeToolTip": "WebAppContacts.Server\\MapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:47:32.362Z"
+              "WhenOpened": "2024-06-23T11:47:32.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "20240623121658_BugFix.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Migrations\\20240623121658_BugFix.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Migrations\\20240623121658_BugFix.cs",
@@ -229,15 +243,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\ContactRepository.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\ContactRepository.cs",
               "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\ContactRepository.cs",
               "RelativeToolTip": "WebAppContacts.Server\\Repositories\\ContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAkwE4AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:35:56.022Z"
+              "WhenOpened": "2024-06-22T19:35:56.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T12:25:35.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\IContactRepository.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IContactRepository.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\IContactRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T11:56:44.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -247,13 +288,76 @@
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Program.cs",
               "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Program.cs",
               "RelativeToolTip": "WebAppContacts.Server\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAACNAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T18:06:25.654Z"
+              "WhenOpened": "2024-06-23T18:06:25.654Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Entities\\User.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\User.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T18:06:17.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "contact-add.component.html",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
+              "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
+              "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-23T22:03:53.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\IUserRepository.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T12:25:10.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "routes.routing.ts",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\routes.routing.ts",
+              "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\routes.routing.ts",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\routes.routing.ts",
+              "RelativeToolTip": "webappcontacts.client\\src\\app\\routes.routing.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-23T12:53:10.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContactsService.cs",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Services\\ContactsService.cs",
+              "RelativeDocumentMoniker": "WebAppContacts.Server\\Services\\ContactsService.cs",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Services\\ContactsService.cs",
+              "RelativeToolTip": "WebAppContacts.Server\\Services\\ContactsService.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAkwGQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T21:52:44.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ContactDTO.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\DTO\\ContactDTO.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\DTO\\ContactDTO.cs",
@@ -265,7 +369,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 25,
+              "Title": "contact-add.component.ts",
+              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
+              "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
+              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
+              "RelativeToolTip": "webappcontacts.client\\src\\app\\contact\\view\\contact-add\\contact-add.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-06-23T19:10:15.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Contact.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\Contact.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Entities\\Contact.cs",
@@ -273,12 +389,11 @@
               "RelativeToolTip": "WebAppContacts.Server\\Entities\\Contact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T19:37:52.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T19:37:52.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "contact.service.ts",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\service\\contact.service.ts",
@@ -290,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "user.service.ts",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\service\\user.service.ts",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\service\\user.service.ts",
@@ -302,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\UserRepository.cs",
@@ -314,31 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:39:15.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ContactsController.cs",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs",
-              "RelativeDocumentMoniker": "WebAppContacts.Server\\Controllers\\ContactsController.cs",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs",
-              "RelativeToolTip": "WebAppContacts.Server\\Controllers\\ContactsController.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAswGAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:07:11.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ContactCategory.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\ContactCategory.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Entities\\ContactCategory.cs",
@@ -350,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ContactSubcategory.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Entities\\ContactSubcategory.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Entities\\ContactSubcategory.cs",
@@ -362,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ContactContext.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Data\\ContactContext.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Data\\ContactContext.cs",
@@ -374,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ContactListDTO.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\DTO\\ContactListDTO.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\DTO\\ContactListDTO.cs",
@@ -386,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
               "Title": "UsersController.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Controllers\\UsersController.cs",
@@ -398,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "login-form.component.html",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.html",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.html",
@@ -410,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "ContactAddDTO.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\DTO\\ContactAddDTO.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\DTO\\ContactAddDTO.cs",
@@ -422,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\DTO\\UserDTO.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\DTO\\UserDTO.cs",
@@ -434,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "login-form.component.ts",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.ts",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\component\\login-form\\login-form.component.ts",
@@ -446,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "contact-list.component.ts",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.ts",
@@ -458,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "contact-list.component.html",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-list\\contact-list.component.html",
@@ -470,43 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
-              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:25:35.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\IUserRepository.cs",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T12:25:10.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "IContactRepository.cs",
-              "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IContactRepository.cs",
-              "RelativeDocumentMoniker": "WebAppContacts.Server\\Repositories\\IContactRepository.cs",
-              "ToolTip": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Repositories\\IContactRepository.cs",
-              "RelativeToolTip": "WebAppContacts.Server\\Repositories\\IContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T11:56:44.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "contact-edit.component.html",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.html",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.html",
@@ -518,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "contact-edit.component.ts",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.ts",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\view\\contact-edit\\contact-edit.component.ts",
@@ -530,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 23,
               "Title": "20240623180055_SurnameTypoFix.cs",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\WebAppContacts.Server\\Migrations\\20240623180055_SurnameTypoFix.cs",
               "RelativeDocumentMoniker": "WebAppContacts.Server\\Migrations\\20240623180055_SurnameTypoFix.cs",
@@ -542,18 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "ContactsController.cs",
-              "DocumentMoniker": "C:\\Users\\lucke\\AppData\\Local\\SourceServer\\f6ee8a03cfc21d21f417b934590e87762957ab62ccadd87f5accc00eaca19b46\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs",
-              "ToolTip": "C:\\Users\\lucke\\AppData\\Local\\SourceServer\\f6ee8a03cfc21d21f417b934590e87762957ab62ccadd87f5accc00eaca19b46\\WebAppContacts\\WebAppContacts.Server\\Controllers\\ContactsController.cs [Read Only]",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAjwE8AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T12:14:09.037Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "contact.interface.ts",
               "DocumentMoniker": "R:\\Programowanie\\ProjektNetPCv2\\WebAppContacts\\webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts",
               "RelativeDocumentMoniker": "webappcontacts.client\\src\\app\\contact\\model\\contact.interface.ts",

@@ -8,79 +8,56 @@ using WebAppContacts.Server.DTO;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using WebAppContacts.Server.Services;
 namespace WebAppContacts.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        private IUnitOfWork unitOfWork;
-        private IMapper mapper;
-        public ContactsController(IUnitOfWork unitOfWork, IMapper mapper)
+        private IContactsService service;
+        public ContactsController(IContactsService service)
         {
-            this.unitOfWork = unitOfWork;
-            this.mapper = mapper;
-
+            this.service = service;
         }
 
-        //TO DO: Add other responses (errors, created, etc)
-        //TO DO: Show to user when input doesnt meet requirments (unique email, safe password)
+
 
         [HttpGet]
         public ActionResult GetContacts()
         {
-            IEnumerable<Contact> contacts = unitOfWork.ContactRepository.GetContacts(); //database always return in basic Contact type
-            return Ok(mapper.Map<IEnumerable<ContactListDTO>>(contacts));               //Mapping to DTO type before sending to user
+            return Ok(service.GetContacts());
         }
 
         [HttpGet("{id}")]
         public ActionResult<string> GetContact(int id)
         {
-            Contact contact = unitOfWork.ContactRepository.GetContactById(id);
-            ContactDTO contactDTO = mapper.Map<ContactDTO>(contact);
-            return Ok(contactDTO);
+            return Ok(service.GetContact(id));
         }
 
 
         [HttpGet("categories")]
         public ActionResult GetContactCategories()
         {
-            IEnumerable<ContactCategory> cat = unitOfWork.ContactRepository.GetContactCategories();
-            return Ok(cat);
+            return Ok(service.GetContactCategories());
         }        
 
         [HttpGet("categories/{id}")]
-        public string GetContactCategory(int id)
+        public ActionResult GetContactCategory(int id)
         {
-            string cat = unitOfWork.ContactRepository.GetContactCategory(id);
-            return (cat);
-        }        
+            return Ok(service.GetContactCategory(id));
+        }
 
         [HttpGet("subcategories")]
         public ActionResult GetContactSubcategories()
         {
-            IEnumerable<ContactSubcategory> cat = unitOfWork.ContactRepository.GetContactSubcategories();
-            return Ok(cat);
+            return Ok(service.GetContactSubcategories());
         }        
 
         [HttpGet("subcategories/{id}")]
-        public string GetContactSubcategory(int id)
+        public ActionResult GetContactSubcategory(int id)
         {
-            string cat = unitOfWork.ContactRepository.GetContactSubcategory(id);
-            return (cat);
-        }
-
-        private void addCategories(Contact contact)
-        {
-            contact.ContactCategory = GetContactCategory(contact.ContactCategoryId);
-            if (contact.ContactCategoryId == 1)
-            {
-                contact.ContactSubcategory = GetContactSubcategory(contact.ContactSubcategoryId);
-            }
-            else if (contact.ContactCategoryId != 1)
-            {
-                contact.ContactSubcategoryId = -1;
-            }
+            return Ok(service.GetContactSubcategory(id));
         }
  
         [HttpPut("add")]
@@ -88,10 +65,7 @@ namespace WebAppContacts.Server.Controllers
         {
             try
             {
-                Contact contact = mapper.Map<Contact>(contactAddDTO);
-                addCategories(contact);
-                unitOfWork.ContactRepository.AddContact(contact);
-                unitOfWork.Save();
+                service.AddContact(contactAddDTO);
                 return Ok();
             }
             catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2627 || sqlEx.Number == 2601))
@@ -106,12 +80,7 @@ namespace WebAppContacts.Server.Controllers
         {
             try
             {
-                Contact contact = unitOfWork.ContactRepository.GetContactById(id);
-                ContactDTO contactToPatch = mapper.Map<ContactDTO>(contact);
-                contactPatchDocument.ApplyTo(contactToPatch, ModelState);
-                mapper.Map(contactToPatch, contact);
-                addCategories(contact);
-                unitOfWork.Save();
+                service.UpdateContact(id, contactPatchDocument);
                 return Ok();
             }
             catch (DbUpdateException ex) when (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2627 || sqlEx.Number == 2601))
@@ -124,8 +93,7 @@ namespace WebAppContacts.Server.Controllers
         [HttpDelete("{id}")]
         public ActionResult DeleteContact(int id)
         {
-            unitOfWork.ContactRepository.DeleteContact(id);
-            unitOfWork.Save();
+            service.DeleteContact(id);
             return Ok();
         }
     }

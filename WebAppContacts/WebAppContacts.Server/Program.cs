@@ -2,6 +2,7 @@ using WebAppContacts.Server.Data;
 using Microsoft.EntityFrameworkCore;
 using WebAppContacts.Server.Repositories;
 using WebAppContacts.Server;
+using WebAppContacts.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddDbContext<ContactContext>(options =>
 builder.Services.AddControllers().AddNewtonsoftJson();
 builder.Services.AddCors();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();    //it is recommended for Repository to have scoped lifetime
+builder.Services.AddScoped<IContactsService, ContactsService>();
 builder.Services.AddAutoMapper(typeof(MapperProfile).Assembly);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
